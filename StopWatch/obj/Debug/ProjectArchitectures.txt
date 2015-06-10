@@ -1,0 +1,1 @@
+E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\StopWatch.csproj;neutral

@@ -1,0 +1,142 @@
+﻿<Page xmlns:Input="using:Syncfusion.UI.Xaml.Controls.Input"  
+    x:Class="StopWatch.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StopWatch"
+    xmlns:userControls="using:StopWatch.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:my="using:StopWatch.Converters" 
+    mc:Ignorable="d"
+    Background="#FF452F8D">
+
+    <Page.Resources>
+        <Storyboard x:Name="TimerStoryboard">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="stack_Timer">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-122">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <my:StateConverter x:Key="StateToButtonConverter"></my:StateConverter>
+        <my:CommandBarOpacityConverter x:Key="CommandBarOpacityConverter"></my:CommandBarOpacityConverter>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Minimal" x:Name="cmdBar" Opacity="{Binding IsOpen, ElementName=cmdBar, Converter={StaticResource CommandBarOpacityConverter}}">
+            <CommandBar.SecondaryCommands>
+                <AppBarToggleButton Label="about app" Click="AppBarToggleButton_aboutApp_Click"></AppBarToggleButton>
+                <!--<AppBarToggleButton Label="send feedback" Click="AppBarToggleButton_feedback_Click"></AppBarToggleButton>-->
+                <AppBarToggleButton Label="rate app"></AppBarToggleButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Title Pane -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Image Source="Assets/stopwatch.png" Height="75"/>
+            <TextBlock Style="{StaticResource HeaderTextBlockStyle}" Foreground="#FFF17575">Stopwatch</TextBlock>
+        </StackPanel>
+
+        <!-- Content Pane -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Timer Display -->
+            <userControls:TimeDisplayControl x:Name="stack_Timer" 
+                                      DataContext="{Binding Timer}"
+                                      Grid.RowSpan="2"
+                                      FontSize="80">
+                <userControls:TimeDisplayControl.RenderTransform>
+                    <CompositeTransform/>
+                </userControls:TimeDisplayControl.RenderTransform>
+            </userControls:TimeDisplayControl>
+
+            <!-- Lap Times -->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- Lap times list -->
+                <ListView x:Name="list_lapTimes" 
+                          ScrollViewer.VerticalScrollMode="Auto"
+                          Grid.Row="1"
+                          DataContext="{Binding Timer}"
+                          ItemsSource="{Binding RecTimes}" 
+                          Visibility="Collapsed">
+                    <ListView.Header>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock HorizontalAlignment="Center" FontSize="20">Split Times</TextBlock>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center" FontSize="20">Lap Times</TextBlock>
+                        </Grid>
+                    </ListView.Header>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <userControls:TimeDisplayControl DataContext="{Binding SplitTime}"
+                                                          FontSize="20"></userControls:TimeDisplayControl>
+                                <userControls:TimeDisplayControl DataContext="{Binding LapTime}"
+                                                          Grid.Column="1"
+                                                          FontSize="20"></userControls:TimeDisplayControl>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <!--<userControls:TimePickerControl Grid.Row="1"/>-->
+                <!--<TimePicker Grid.Row="1"
+                            VerticalAlignment="Center" ClockIdentifier="24HourClock"></TimePicker>-->
+                
+            </Grid>
+
+            <!-- Control Panel -->
+            <Grid Grid.Row="2">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <AppBarButton Click="Button_StartPause_Click" 
+                                  Icon="{Binding Timer.State, Converter={StaticResource StateToButtonConverter}, ConverterParameter=start_pause}"
+                                  Style="{StaticResource AppBarButtonStyle1}" />
+                    <AppBarButton Click="Button_ResetLap" 
+                                  Icon="{Binding Timer.State, Converter={StaticResource StateToButtonConverter}, ConverterParameter=reset_lap}" 
+                                  Style="{StaticResource AppBarButtonStyle1}" />
+                    <!--<userControls:DualButton></userControls:DualButton>-->
+                    <AppBarButton Icon="Up" 
+                                  x:Name="but_upTimer"
+                                  Click="but_upTimer_Click"
+                                  Style="{StaticResource AppBarButtonStyle1}"/>
+                    <AppBarButton Icon="Clock" 
+                                  x:Name="but_dnTimer"
+                                  Click="but_dnTimer_Click"
+                                  Style="{StaticResource AppBarButtonStyle1}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

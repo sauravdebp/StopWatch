@@ -1,0 +1,58 @@
+﻿<UserControl
+    x:Class="StopWatch.UserControls.TimePickerControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StopWatch.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:my="using:StopWatch.Converters"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <my:TimeConverter x:Key="TimeConverter"></my:TimeConverter>
+        <local:FontSizeConverter x:Key="FontSizeConverter"></local:FontSizeConverter>
+    </UserControl.Resources>
+
+    <Grid>
+        <StackPanel x:Name="stack_Timer" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBlock Text="{Binding Hours, Converter={StaticResource TimeConverter}}">00</TextBlock>
+            <TextBlock Text=":" />
+            <TextBlock Text="{Binding Minutes, Converter={StaticResource TimeConverter}}">00</TextBlock>
+            <TextBlock Text=":" />
+            <TextBlock Text="{Binding Seconds, Converter={StaticResource TimeConverter}}">00</TextBlock>
+            <TextBlock FontSize="{Binding FontSize, ElementName=mycontrol, Converter={StaticResource FontSizeConverter}}"
+                       Text="." VerticalAlignment="Bottom"/>
+            <TextBlock FontSize="{Binding FontSize, ElementName=mycontrol, Converter={StaticResource FontSizeConverter}}" 
+                       Text="{Binding Milliseconds, Converter={StaticResource TimeConverter}, ConverterParameter=something}"
+                       VerticalAlignment="Bottom">00</TextBlock>
+        </StackPanel>
+        <ListView ItemsSource="{Binding Hours}" x:Name="list_hours">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="Aquamarine" 
+                          Margin="5" 
+                          Width="70" 
+                          Height="70">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock FontSize="30" 
+                                   Margin="3"
+                                   Text="{Binding}"></TextBlock>
+                        <TextBlock Grid.Row="1" 
+                                   Margin="3"
+                                   FontSize="20">hours</TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </Grid>
+</UserControl>
+

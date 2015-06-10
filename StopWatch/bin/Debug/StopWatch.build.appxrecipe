@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SAURAV-PC</Machine>
+    <WindowsUser>Saurav</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9596a38f-80b7-4a1d-ba29-4d4e6628e3a3</PackageIdentityName>
+    <IntermediateOutputPath>E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\StopWatch.exe">
+      <PackagePath>StopWatch.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.Calculate.WP.dll">
+      <PackagePath>Syncfusion.Calculate.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.Data.WP.dll">
+      <PackagePath>Syncfusion.Data.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.DocIO.WP.dll">
+      <PackagePath>Syncfusion.DocIO.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.Pdf.WP.dll">
+      <PackagePath>Syncfusion.Pdf.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfAccordion.WP.dll">
+      <PackagePath>Syncfusion.SfAccordion.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBarcode.WP.dll">
+      <PackagePath>Syncfusion.SfBarcode.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WP.dll">
+      <PackagePath>Syncfusion.SfBulletGraph.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WP.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfCarousel.WP.dll">
+      <PackagePath>Syncfusion.SfCarousel.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfChart.WP.dll">
+      <PackagePath>Syncfusion.SfChart.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP.dll">
+      <PackagePath>Syncfusion.SfColorPickers.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGauge.WP.dll">
+      <PackagePath>Syncfusion.SfGauge.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGrid.WP.dll">
+      <PackagePath>Syncfusion.SfGrid.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP.dll">
+      <PackagePath>Syncfusion.SfGridConverter.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfHubTile.WP.dll">
+      <PackagePath>Syncfusion.SfHubTile.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfInput.WP.dll">
+      <PackagePath>Syncfusion.SfInput.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfMaps.WP.dll">
+      <PackagePath>Syncfusion.SfMaps.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WP.dll">
+      <PackagePath>Syncfusion.SfRadialMenu.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfShared.WP.dll">
+      <PackagePath>Syncfusion.SfShared.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTabControl.WP.dll">
+      <PackagePath>Syncfusion.SfTabControl.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTileView.WP.dll">
+      <PackagePath>Syncfusion.SfTileView.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeMap.WP.dll">
+      <PackagePath>Syncfusion.SfTreeMap.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WP.dll">
+      <PackagePath>Syncfusion.SfTreeNavigator.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.XlsIO.WP.dll">
+      <PackagePath>Syncfusion.XlsIO.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\ChartArea\Themes\ChartArea.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\ChartArea\Themes\ChartArea.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\ChartAxis\Themes\ChartAxis.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\ChartAxis\Themes\ChartAxis.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\3D\ChartSeries\Themes\ChartSeries.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\3D\ChartSeries\Themes\ChartSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\ChartSeries\Themes\ChartSeries.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\ChartSeries\Themes\ChartSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\CircularGauge\Themes\CircularGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.WP\CircularGauge\Themes\CircularGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WP\Themes\ColorPalette.xbf">
+      <PackagePath>Syncfusion.SfMaps.WP\Themes\ColorPalette.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\DigitalGauge\Themes\DigitalGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.WP\DigitalGauge\Themes\DigitalGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Themes\Generic.Common.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Themes\Generic.Common.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Themes\Generic.Legend.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Themes\Generic.Legend.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Themes\Generic.Symbol.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Themes\Generic.Symbol.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfAccordion.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfBarcode.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfBulletGraph.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfBusyIndicator.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfCarousel.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfColorPickers.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGauge.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Control\DetailsView\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Control\DetailsView\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Control\GroupDropArea\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Control\GroupDropArea\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Control\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Control\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\DataPager\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\DataPager\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\GridCommon\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\GridCommon\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfHubTile.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfInput.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfMaps.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfRadialMenu.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfShared.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTabControl.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTileView.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.WP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfTreeMap.WP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTreeNavigator.WP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\LinearGauge\Themes\LinearGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.WP\LinearGauge\Themes\LinearGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Styles\PhoneStyle.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Styles\PhoneStyle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Controls\Themes\ResizableScrollBar.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Controls\Themes\ResizableScrollBar.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Controls\Themes\Resizer.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Controls\Themes\Resizer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\3D\ChartArea\Themes\SfChart3D.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\3D\ChartArea\Themes\SfChart3D.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Controls\Themes\SfRangeNavigator.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Controls\Themes\SfRangeNavigator.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Sparkline\Themes\Sparkline.xbf">
+      <PackagePath>Syncfusion.SfChart.WP\Sparkline\Themes\Sparkline.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Styles\Styles.xbf">
+      <PackagePath>Syncfusion.SfGrid.WP\Styles\Styles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WP\Themes\Templates.xbf">
+      <PackagePath>Syncfusion.SfMaps.WP\Themes\Templates.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.Data.WP\Syncfusion.Data.WP.xml">
+      <PackagePath>Syncfusion.Data.WP\Syncfusion.Data.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Syncfusion.Data.WP.xml">
+      <PackagePath>Syncfusion.SfGrid.WP\Syncfusion.Data.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.Data.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.Data.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.DocIO.WP\Syncfusion.DocIO.WP.xml">
+      <PackagePath>Syncfusion.DocIO.WP\Syncfusion.DocIO.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.Pdf.WP\Syncfusion.Pdf.WP.xml">
+      <PackagePath>Syncfusion.Pdf.WP\Syncfusion.Pdf.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.Pdf.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.Pdf.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.WP\Syncfusion.SfAccordion.WP.xml">
+      <PackagePath>Syncfusion.SfAccordion.WP\Syncfusion.SfAccordion.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.WP\Syncfusion.SfAccordion.WP.xr.xml">
+      <PackagePath>Syncfusion.SfAccordion.WP\Syncfusion.SfAccordion.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.WP\Syncfusion.SfBarcode.WP.xml">
+      <PackagePath>Syncfusion.SfBarcode.WP\Syncfusion.SfBarcode.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.WP\Syncfusion.SfBarcode.WP.xr.xml">
+      <PackagePath>Syncfusion.SfBarcode.WP\Syncfusion.SfBarcode.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WP\Syncfusion.SfBulletGraph.WP.xml">
+      <PackagePath>Syncfusion.SfBulletGraph.WP\Syncfusion.SfBulletGraph.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WP\Syncfusion.SfBulletGraph.WP.xr.xml">
+      <PackagePath>Syncfusion.SfBulletGraph.WP\Syncfusion.SfBulletGraph.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WP\Syncfusion.SfBusyIndicator.WP.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.WP\Syncfusion.SfBusyIndicator.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WP\Syncfusion.SfBusyIndicator.WP.xr.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.WP\Syncfusion.SfBusyIndicator.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.WP\Syncfusion.SfCarousel.WP.xml">
+      <PackagePath>Syncfusion.SfCarousel.WP\Syncfusion.SfCarousel.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.WP\Syncfusion.SfCarousel.WP.xr.xml">
+      <PackagePath>Syncfusion.SfCarousel.WP\Syncfusion.SfCarousel.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Syncfusion.SfChart.WP.xml">
+      <PackagePath>Syncfusion.SfChart.WP\Syncfusion.SfChart.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WP\Syncfusion.SfChart.WP.xr.xml">
+      <PackagePath>Syncfusion.SfChart.WP\Syncfusion.SfChart.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP\Syncfusion.SfColorPickers.WP.xml">
+      <PackagePath>Syncfusion.SfColorPickers.WP\Syncfusion.SfColorPickers.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP\Syncfusion.SfColorPickers.WP.xr.xml">
+      <PackagePath>Syncfusion.SfColorPickers.WP\Syncfusion.SfColorPickers.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\Syncfusion.SfGauge.WP.xml">
+      <PackagePath>Syncfusion.SfGauge.WP\Syncfusion.SfGauge.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WP\Syncfusion.SfGauge.WP.xr.xml">
+      <PackagePath>Syncfusion.SfGauge.WP\Syncfusion.SfGauge.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Syncfusion.SfGrid.WP.xml">
+      <PackagePath>Syncfusion.SfGrid.WP\Syncfusion.SfGrid.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.SfGrid.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.SfGrid.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Syncfusion.SfGrid.WP.xr.xml">
+      <PackagePath>Syncfusion.SfGrid.WP\Syncfusion.SfGrid.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.SfGridConverter.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.SfGridConverter.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.WP\Syncfusion.SfHubTile.WP.xml">
+      <PackagePath>Syncfusion.SfHubTile.WP\Syncfusion.SfHubTile.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.WP\Syncfusion.SfHubTile.WP.xr.xml">
+      <PackagePath>Syncfusion.SfHubTile.WP\Syncfusion.SfHubTile.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Syncfusion.SfInput.WP.xml">
+      <PackagePath>Syncfusion.SfGrid.WP\Syncfusion.SfInput.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.SfInput.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.SfInput.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.WP\Syncfusion.SfInput.WP.xml">
+      <PackagePath>Syncfusion.SfInput.WP\Syncfusion.SfInput.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.WP\Syncfusion.SfInput.WP.xr.xml">
+      <PackagePath>Syncfusion.SfInput.WP\Syncfusion.SfInput.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WP\Syncfusion.SfMaps.WP.xml">
+      <PackagePath>Syncfusion.SfMaps.WP\Syncfusion.SfMaps.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WP\Syncfusion.SfMaps.WP.xr.xml">
+      <PackagePath>Syncfusion.SfMaps.WP\Syncfusion.SfMaps.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP\Syncfusion.SfRadialMenu.WP.xml">
+      <PackagePath>Syncfusion.SfColorPickers.WP\Syncfusion.SfRadialMenu.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WP\Syncfusion.SfRadialMenu.WP.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.WP\Syncfusion.SfRadialMenu.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WP\Syncfusion.SfRadialMenu.WP.xr.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.WP\Syncfusion.SfRadialMenu.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfAccordion.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfCarousel.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfColorPickers.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfGrid.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfHubTile.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfInput.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfShared.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfTabControl.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfTileView.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WP\Syncfusion.SfShared.WP.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.WP\Syncfusion.SfShared.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.WP\Syncfusion.SfShared.WP.xr.xml">
+      <PackagePath>Syncfusion.SfShared.WP\Syncfusion.SfShared.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.WP\Syncfusion.SfTabControl.WP.xml">
+      <PackagePath>Syncfusion.SfTabControl.WP\Syncfusion.SfTabControl.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.WP\Syncfusion.SfTabControl.WP.xr.xml">
+      <PackagePath>Syncfusion.SfTabControl.WP\Syncfusion.SfTabControl.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.WP\Syncfusion.SfTileView.WP.xml">
+      <PackagePath>Syncfusion.SfTileView.WP\Syncfusion.SfTileView.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.WP\Syncfusion.SfTileView.WP.xr.xml">
+      <PackagePath>Syncfusion.SfTileView.WP\Syncfusion.SfTileView.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.WP\Syncfusion.SfTreeMap.WP.xml">
+      <PackagePath>Syncfusion.SfTreeMap.WP\Syncfusion.SfTreeMap.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.WP\Syncfusion.SfTreeMap.WP.xr.xml">
+      <PackagePath>Syncfusion.SfTreeMap.WP\Syncfusion.SfTreeMap.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WP\Syncfusion.SfTreeNavigator.WP.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.WP\Syncfusion.SfTreeNavigator.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WP\Syncfusion.SfTreeNavigator.WP.xr.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.WP\Syncfusion.SfTreeNavigator.WP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.WP\Syncfusion.XlsIO.WP.xml">
+      <PackagePath>Syncfusion.SfGridConverter.WP\Syncfusion.XlsIO.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files %28x86%29\Syncfusion\Essential Studio\12.2.0.36\Windows Phone\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.XlsIO.WP\Syncfusion.XlsIO.WP.xml">
+      <PackagePath>Syncfusion.XlsIO.WP\Syncfusion.XlsIO.WP.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\stopwatch.png">
+      <PackagePath>Assets\stopwatch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\UserControls\DualButtonControl.xbf">
+      <PackagePath>UserControls\DualButtonControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\UserControls\TimeDisplayControl.xbf">
+      <PackagePath>UserControls\TimeDisplayControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\UserControls\TimePickerControl.xbf">
+      <PackagePath>UserControls\TimePickerControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\StopWatch.xr.xml">
+      <PackagePath>StopWatch.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\Windows Phone\StopWatch\StopWatch\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

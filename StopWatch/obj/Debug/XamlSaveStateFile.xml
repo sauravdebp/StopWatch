@@ -1,0 +1,29 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="e:\visual studio projects\windows phone\stopwatch\stopwatch\obj\debug\intermediatexaml\stopwatch.exe" HashGuid="ecd812ae-c86b-e896-b173-3f34c9d816de" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.calculate.wp.dll" HashGuid="865be339-c648-a5c4-b0d5-e531482ac9f9" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.data.wp.dll" HashGuid="82bf5e41-28f7-983b-fb86-6707b141bf1a" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.docio.wp.dll" HashGuid="fe917473-24dc-5f58-7255-b9fd29f879f2" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.pdf.wp.dll" HashGuid="36568762-6b60-0c1b-a5f9-321c53d96246" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfaccordion.wp.dll" HashGuid="8747cab1-e209-a6eb-f0c4-a1d44427cb0c" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfbarcode.wp.dll" HashGuid="0295e768-13de-cd71-1842-bfc57a997912" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfbulletgraph.wp.dll" HashGuid="25e59852-8361-1f65-20c6-f791d4c4e88c" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfbusyindicator.wp.dll" HashGuid="9f582b23-ea7b-93c3-e7d9-1d27ba3f2830" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfcarousel.wp.dll" HashGuid="e11db40e-1801-154b-4109-43ea20639a93" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfchart.wp.dll" HashGuid="5ef53f5d-7d13-2d18-a1a1-beac342fab25" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfcolorpickers.wp.dll" HashGuid="6505504d-a425-ce54-16fb-65d48280b2de" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfgauge.wp.dll" HashGuid="4b758b04-4943-143d-63c3-536f63b7acd9" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfgrid.wp.dll" HashGuid="2c471f9f-c427-9338-4c4f-0da911b5d011" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfgridconverter.wp.dll" HashGuid="85c904e0-2545-1fd7-79d6-de273b3abea6" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfhubtile.wp.dll" HashGuid="ac56eed5-284a-7e22-9376-030a6b223e9c" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfinput.wp.dll" HashGuid="368db723-a227-b0c6-9e7c-9cf8f6e9ee1b" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfmaps.wp.dll" HashGuid="477d78ed-91e3-a0d5-b71f-08f54fb756eb" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfradialmenu.wp.dll" HashGuid="2f89264d-a19c-c705-1b35-503af95806d7" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sfshared.wp.dll" HashGuid="57f4b987-49b2-543c-af6b-315c07d0d8be" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sftabcontrol.wp.dll" HashGuid="cf463a77-3464-26a7-a682-d895ed9ee063" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sftileview.wp.dll" HashGuid="858fdefd-1481-c323-d3ea-d4f25ead0d88" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sftreemap.wp.dll" HashGuid="9153177f-a6e6-8088-6910-b8532f37d7d4" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.sftreenavigator.wp.dll" HashGuid="e445bb93-e981-d932-dd33-e07ac49c899d" />
+    <ReferenceAssembly PathName="d:\program files (x86)\syncfusion\essential studio\12.2.0.36\windows phone\8.1\sdk\references\commonconfiguration\neutral\syncfusion.xlsio.wp.dll" HashGuid="745b4def-1faf-36bf-8a47-fb048e7643b4" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
